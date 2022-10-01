@@ -1,8 +1,7 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:lottie/lottie.dart';
+import 'package:get/get.dart';;
 
 import 'ImagePickerController.dart';
 //練習怎麼使用image picker挑選照片並顯示在畫面上
