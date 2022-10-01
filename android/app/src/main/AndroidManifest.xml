@@ -2,8 +2,9 @@
     package="com.mouse.getx_pratice">
    <application
         android:label="getx_pratice"
-        android:name="${applicationName}"
-        android:icon="@mipmap/launcher_icon">
+       android:icon="@mipmap/launcher_icon"
+       android:roundIcon="@mipmap/ic_launcher_round"
+        android:name="${applicationName}">
         <activity
             android:name=".MainActivity"
             android:exported="true"

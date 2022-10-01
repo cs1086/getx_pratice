@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 
-class myController extends GetxController{
+class HomeController extends GetxController{
   var count=0.obs;
   var count2=0.obs;
   get total=>count+count2.value;
