@@ -9,4 +9,7 @@ class AppRoutes{
   static const ImageCachePage="/ImageCachePage";
   static const QRCodePage="/QRCodePage";
   static const QRCodeScanPage="/QRCodeScanPage";
+  static const AnimatedText="/AnimatedText";
+  static const WrapChipPage="/WrapChipPage";
+  static const I18NTestPage="/I18NTestPage";
 }

@@ -1,0 +1,1 @@
+const Map<String,String> zh_CN={"title":"标题"};
