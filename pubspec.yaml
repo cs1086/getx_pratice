@@ -47,6 +47,11 @@ dependencies:
   qr_flutter: ^4.0.0
   qr_code_scanner: ^1.0.1
   animated_text_kit: ^4.2.2
+  dio: ^4.0.6
+  shared_preferences: ^2.0.15
+  shimmer: ^2.0.0
+  connectivity_plus: ^2.3.9
+  flutter_native_splash: ^2.2.11
 
 dev_dependencies:
   flutter_test:
@@ -101,3 +106,12 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/LaunchLogo.png
+  android_gravity: center
+  ios_content_mode: center
+  # platform.
+  android: true
+  ios: true
+  web: false

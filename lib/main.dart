@@ -3,9 +3,14 @@ import 'package:get/get.dart';
 import 'package:getx_pratice/entity/person.dart';
 import 'package:getx_pratice/routes/app_pages.dart';
 import 'package:get_storage/get_storage.dart';
+import 'package:getx_pratice/utils/ConnectivityManager.dart';
+import 'package:getx_pratice/utils/UserDefault.dart';
 
 import 'i18n/translation_service.dart';
 void main() async{
+  WidgetsFlutterBinding.ensureInitialized();
+  await ConnectivityManager().init();
+  await UserDefault().init();
   await GetStorage.init();
   runApp(MyApp());
 }
